@@ -1,0 +1,155 @@
+tasks:
+  # ── 中等难度：2~3个筛选条件 ────────────────────────────────
+  - name: "飞猪酒店_task_000"
+    description: "预订北京三里屯附近酒店，入住6月10日，离店6月12日，筛选五星级"
+    max_steps: 50
+    enabled: true
+
+  - name: "飞猪酒店_task_001"
+    description: "预订上海外滩附近酒店，入住5月15日，离店5月17日，价格每晚800元以内"
+    max_steps: 50
+    enabled: true
+
+  - name: "飞猪酒店_task_002"
+    description: "预订成都宽窄巷子附近酒店，入住5月20日，离店5月22日，筛选四星级，按价格从低到高排序"
+    max_steps: 50
+    enabled: true
+
+  - name: "飞猪酒店_task_003"
+    description: "预订三亚亚龙湾附近酒店，入住6月1日，离店6月5日，筛选五星级，按评分从高到低排序"
+    max_steps: 50
+    enabled: true
+
+  - name: "飞猪酒店_task_004"
+    description: "预订杭州西湖附近酒店，入住5月25日，离店5月27日，含早餐"
+    max_steps: 50
+    enabled: true
+
+  - name: "飞猪酒店_task_005"
+    description: "预订广州天河区酒店，入住6月8日，离店6月10日，筛选希尔顿品牌"
+    max_steps: 50
+    enabled: true
+
+  - name: "飞猪酒店_task_006"
+    description: "预订西安钟鼓楼附近酒店，入住6月15日，离店6月17日，价格每晚500元以内，四星级"
+    max_steps: 50
+    enabled: true
+
+  - name: "飞猪酒店_task_007"
+    description: "预订重庆解放碑附近酒店，入住5月30日，离店6月2日，含早餐，按评分从高到低排序"
+    max_steps: 50
+    enabled: true
+
+  - name: "飞猪酒店_task_008"
+    description: "预订厦门鼓浪屿附近酒店，入住7月1日，离店7月4日，五星级，价格每晚1000元以内"
+    max_steps: 50
+    enabled: true
+
+  - name: "飞猪酒店_task_009"
+    description: "预订南京夫子庙附近酒店，入住6月20日，离店6月22日，筛选万豪品牌"
+    max_steps: 50
+    enabled: true
+
+  # ── 中偏难：3~4个筛选条件 ────────────────────────────────────
+  - name: "飞猪酒店_task_010"
+    description: "预订深圳南山区酒店，入住5月18日，离店5月20日，筛选五星级，含早餐，按价格从低到高排序"
+    max_steps: 50
+    enabled: true
+
+  - name: "飞猪酒店_task_011"
+    description: "预订苏州平江路附近酒店，入住6月5日，离店6月8日，价格每晚600-1200元，含早餐，四星及以上"
+    max_steps: 50
+    enabled: true
+
+  - name: "飞猪酒店_task_012"
+    description: "预订丽江古城附近酒店，入住7月10日，离店7月14日，五星级，含早餐，按评分排序"
+    max_steps: 50
+    enabled: true
+
+  - name: "飞猪酒店_task_013"
+    description: "预订武汉武昌区酒店，入住6月25日，离店6月27日，筛选洲际品牌，含免费停车"
+    max_steps: 50
+    enabled: true
+
+  - name: "飞猪酒店_task_014"
+    description: "预订青岛崂山区酒店，入住7月5日，离店7月8日，海景房，五星级，价格每晚1500元以内"
+    max_steps: 50
+    enabled: true
+
+  - name: "飞猪酒店_task_015"
+    description: "预订长沙五一广场附近酒店，入住6月12日，离店6月14日，价格每晚400元以内，含早餐，按销量排序"
+    max_steps: 50
+    enabled: true
+
+  - name: "飞猪酒店_task_016"
+    description: "预订大理古城附近酒店，入住8月1日，离店8月5日，四星级，含早餐，价格每晚800元以内"
+    max_steps: 50
+    enabled: true
+
+  - name: "飞猪酒店_task_017"
+    description: "预订哈尔滨中央大街附近酒店，入住7月20日，离店7月22日，筛选喜来登品牌，含早餐"
+    max_steps: 50
+    enabled: true
+
+  - name: "飞猪酒店_task_018"
+    description: "预订郑州二七区酒店，入住6月28日，离店6月30日，五星级，含早餐，免费WiFi，按价格排序"
+    max_steps: 50
+    enabled: true
+
+  - name: "飞猪酒店_task_019"
+    description: "预订桂林阳朔附近酒店，入住7月15日，离店7月19日，含早餐，价格每晚500-1000元，按评分从高到低"
+    max_steps: 50
+    enabled: true
+
+  # ── 偏难：4+个条件 或 含预订填写 ─────────────────────────────
+  - name: "飞猪酒店_task_020"
+    description: "预订北京朝阳区酒店，入住5月22日，离店5月25日，万豪品牌，五星级，含早餐，价格每晚2000元以内，按评分排序，点开第一家酒店查看详情"
+    max_steps: 50
+    enabled: true
+
+  - name: "飞猪酒店_task_021"
+    description: "预订上海浦东新区酒店，入住6月3日，离店6月6日，五星级，含早餐，含游泳池，价格每晚1200-2500元"
+    max_steps: 50
+    enabled: true
+
+  - name: "飞猪酒店_task_022"
+    description: "预订三亚海棠湾酒店，入住8月10日，离店8月15日，五星级，海景房，含早餐，价格每晚1500元以内，按评分从高到低排序"
+    max_steps: 50
+    enabled: true
+
+  - name: "飞猪酒店_task_023"
+    description: "预订成都高新区酒店，入住7月8日，离店7月10日，筛选凯悦品牌，含早餐，免费停车，按价格从低到高排序"
+    max_steps: 50
+    enabled: true
+
+  - name: "飞猪酒店_task_024"
+    description: "预订杭州滨江区酒店，入住6月18日，离店6月21日，五星级，含早餐，健身房，价格每晚800-1500元，按销量排序"
+    max_steps: 50
+    enabled: true
+
+  - name: "飞猪酒店_task_025"
+    description: "预订厦门思明区酒店，入住7月25日，离店7月28日，四星及以上，含早餐，价格每晚500-1000元，按评分从高到低，入住人张伟，电话13812345678"
+    max_steps: 50
+    enabled: true
+
+  - name: "飞猪酒店_task_026"
+    description: "预订西安雁塔区酒店，入住8月5日，离店8月8日，五星级，希尔顿品牌，含早餐，免费停车，价格每晚1000元以内"
+    max_steps: 50
+    enabled: true
+
+  - name: "飞猪酒店_task_027"
+    description: "预订南京鼓楼区酒店，入住7月28日，离店7月31日，四星及以上，含早餐，免费WiFi，价格每晚600元以内，按价格从低到高排序，入住人李明，电话13987654321"
+    max_steps: 50
+    enabled: true
+
+  - name: "飞猪酒店_task_028"
+    description: "预订重庆渝中区酒店，入住8月20日，离店8月23日，五星级，万豪品牌，含早餐，含游泳池，价格每晚1500元以内，按评分排序"
+    max_steps: 50
+    enabled: true
+
+  - name: "飞猪酒店_task_029"
+    description: "预订广州越秀区酒店，入住9月1日，离店9月4日，五星级，洲际品牌，含早餐，免费停车，健身房，价格每晚1200元以内，按评分从高到低排序，点开第一家酒店查看最低价房型"
+    max_steps: 50
+    enabled: true
+
+default_task: 0

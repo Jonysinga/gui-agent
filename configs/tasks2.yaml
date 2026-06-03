@@ -1,0 +1,107 @@
+#这个task也要改成道旅，每个任务加1-3个条件，比如金额（300以下，300-500，500-800，800-1200），星级（3星4星5星），酒店品牌（Independent，
+#Renaissance，CN Jinling，Best Western，Huazhu，Accor Hotels，Hilton Hotels，CN Green Tree Inn Hotels，New Century）这几个，还可以排序（价格低到高，高到低，星级高到低低到高）
+
+tasks:
+  - name: "道旅订酒店_task_000"
+    description: "预订上海酒店，入住时间6月4日到6月7日，入住人马艳，电话13997439533，邮箱user000@sina.com，筛选价格500-800元，4星级"
+    max_steps: 50
+    enabled: true
+
+  - name: "道旅订酒店_task_001"
+    description: "预订厦门鼓浪屿附近酒店，入住时间5月21日到5月24日，入住人张涛，电话13669409749，邮箱user001@sina.com，选择Hilton Hotels品牌，按价格从高到低排序"
+    max_steps: 50
+    enabled: true
+
+  - name: "道旅订酒店_task_002"
+    description: "预订青岛栈桥附近酒店，入住时间4月12日到4月14日，入住人李敏杰，电话13425358414，邮箱user002_9025@gmail.com，筛选3星级，价格300元以下"
+    max_steps: 50
+    enabled: true
+
+  - name: "道旅订酒店_task_003"
+    description: "预订杭州西湖附近酒店，入住时间5月27日到5月29日，入住人吴杰丽，电话13626042232，邮箱user003@sohu.com，筛选4星级，价格500-800元，按价格从低到高排序"
+    max_steps: 50
+    enabled: true
+
+  - name: "道旅订酒店_task_004"
+    description: "预订大连星海广场附近酒店，入住时间3月20日到3月21日，入住人何秀英，电话15985977034，邮箱user004@gmail.com，选择Best Western品牌，价格300-500元"
+    max_steps: 50
+    enabled: true
+
+  - name: "道旅订酒店_task_005"
+    description: "预订成都春熙路附近酒店，入住时间5月6日到5月10日，入住人黄静，电话18742353693，邮箱user005@sina.com，选择Huazhu品牌，5星级，按星级从高到低排序"
+    max_steps: 50
+    enabled: true
+
+  - name: "道旅订酒店_task_006"
+    description: "预订上海外滩附近酒店，5月18日入住，住3晚，入住人马明静，电话18302895171，邮箱user006@outlook.com，筛选价格800-1200元，选择Renaissance品牌"
+    max_steps: 50
+    enabled: true
+
+  - name: "道旅订酒店_task_007"
+    description: "预订青岛栈桥附近酒店，入住时间5月17日到5月19日，入住人孙浩，电话18251401051，邮箱user007@163.com，选择CN Jinling品牌，筛选4星级"
+    max_steps: 50
+    enabled: true
+
+  - name: "道旅订酒店_task_008"
+    description: "预订深圳世界之窗附近酒店，5月12日入住，住2晚，入住人高娟，电话13478774701，邮箱user008@126.com，选择Accor Hotels品牌，价格300-500元，按价格从低到高排序"
+    max_steps: 50
+    enabled: true
+
+  - name: "道旅订酒店_task_009"
+    description: "预订杭州西湖附近酒店，入住时间4月27日到5月1日，入住人刘超，电话15071543799，邮箱user009_1753@163.com，筛选5星级，按星级从高到低排序"
+    max_steps: 50
+    enabled: true
+
+
+  - name: "道旅订酒店_task_010"
+    description: "预订北京三里屯附近酒店，入住时间4月8日到4月11日，入住人陈晓明，电话13812345678，邮箱user010@sina.com，筛选价格500-800元，5星级，按价格从低到高排序"
+    max_steps: 50
+    enabled: true
+
+  - name: "道旅订酒店_task_011"
+    description: "预订西安大雁塔附近酒店，入住时间4月15日到4月18日，入住人赵丽华，电话15923456789，邮箱user011@163.com，选择Hilton Hotels品牌，筛选4星级"
+    max_steps: 50
+    enabled: true
+
+  - name: "道旅订酒店_task_012"
+    description: "预订三亚亚龙湾附近酒店，4月20日入住，住3晚，入住人王建国，电话13734567890，邮箱user012@gmail.com，筛选价格800-1200元，5星级，按星级从高到低排序"
+    max_steps: 50
+    enabled: true
+
+  - name: "道旅订酒店_task_013"
+    description: "预订重庆解放碑附近酒店，入住时间4月25日到4月28日，入住人林秀梅，电话18645678901，邮箱user013@outlook.com，选择Huazhu品牌，价格300-500元"
+    max_steps: 50
+    enabled: true
+
+  - name: "道旅订酒店_task_014"
+    description: "预订南京夫子庙附近酒店，入住时间5月3日到5月5日，入住人徐志强，电话13556789012，邮箱user014@sohu.com，筛选3星级，价格300元以下，按价格从低到高排序"
+    max_steps: 50
+    enabled: true
+
+  - name: "道旅订酒店_task_015"
+    description: "预订苏州园区附近酒店，5月8日入住，住2晚，入住人周燕，电话15867890123，邮箱user015@126.com，选择CN Green Tree Inn Hotels品牌，价格300-500元"
+    max_steps: 50
+    enabled: true
+
+  - name: "道旅订酒店_task_016"
+    description: "预订武汉东湖附近酒店，入住时间5月14日到5月17日，入住人蒋磊，电话13978901234，邮箱user016@sina.com，选择New Century品牌，筛选4星级，按星级从低到高排序"
+    max_steps: 50
+    enabled: true
+
+  - name: "道旅订酒店_task_017"
+    description: "预订桂林漓江附近酒店，入住时间5月22日到5月25日，入住人沈玉洁，电话18389012345，邮箱user017@163.com，筛选价格500-800元，选择Accor Hotels品牌"
+    max_steps: 50
+    enabled: true
+
+  - name: "道旅订酒店_task_018"
+    description: "预订丽江古城附近酒店，入住时间6月1日到6月4日，入住人曾浩然，电话13490123456，邮箱user018@gmail.com，筛选4星级，价格500-800元，按价格从高到低排序"
+    max_steps: 50
+    enabled: true
+
+  - name: "道旅订酒店_task_019"
+    description: "预订厦门曾厝垵附近酒店，入住时间6月10日到6月13日，入住人郭晶晶，电话15601234567，邮箱user019@outlook.com，选择CN Jinling品牌，筛选5星级，按星级从高到低排序"
+    max_steps: 50
+    enabled: true
+
+
+default_task: 0
