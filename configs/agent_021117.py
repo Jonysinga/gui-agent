@@ -12,21 +12,12 @@ import pyperclip
 from PIL import Image
 
 # ================= 配置区域 =================
-OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "")
-OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
+API_KEY = os.getenv("DOUBAO_API_KEY", "")
+ENDPOINT_ID = "doubao-1-5-ui-tars-250428"
 
-# 决策脑 (Analyst) - Qwen3-VL-32B
-ANALYST_MODEL = "qwen/qwen3-vl-32b-instruct"
-client_analyst = OpenAI(
-    base_url=OPENROUTER_BASE_URL,
-    api_key=OPENROUTER_API_KEY
-)
-
-# 执行脑 (Executor) - Qwen3-VL-8B
-EXECUTOR_MODEL = "qwen/qwen3-vl-8b-instruct"
-client_executor = OpenAI(
-    base_url=OPENROUTER_BASE_URL,
-    api_key=OPENROUTER_API_KEY
+client = OpenAI(
+    base_url="https://ark.cn-beijing.volces.com/api/v3",
+    api_key=API_KEY
 )
 
 SCREEN_WIDTH, SCREEN_HEIGHT = pyautogui.size()
@@ -106,25 +97,13 @@ def execute_action(data):
 
         elif action == "scroll_down":
             print("📜 下滚")
-            pyautogui.scroll(-10 if IS_MAC else -900)
+            pyautogui.scroll(-10 if IS_MAC else -600)
             return False, "SCROLL_DOWN"
 
         elif action == "scroll_up":
             print("📜 上滚")
-            pyautogui.scroll(10 if IS_MAC else 1500)
+            pyautogui.scroll(10 if IS_MAC else 1000)
             return False, "SCROLL_UP"
-
-        elif action == "drag":
-            start_point = data.get("start_point", [0, 0])
-            end_point = data.get("end_point", [0, 0])
-            sx = int(start_point[0] / 1000 * SCREEN_WIDTH)
-            sy = int(start_point[1] / 1000 * SCREEN_HEIGHT)
-            ex = int(end_point[0] / 1000 * SCREEN_WIDTH)
-            ey = int(end_point[1] / 1000 * SCREEN_HEIGHT)
-            print(f"🎯 拖拽: ({sx}, {sy}) -> ({ex}, {ey})")
-            pyautogui.moveTo(sx, sy, duration=0.3)
-            pyautogui.dragTo(ex, ey, duration=0.8, button='left')
-            return False, f"DRAG(from={start_point} to={end_point})"
 
         elif action == "finish":
             print("✅ 任务完成")
@@ -248,8 +227,8 @@ def run_agent_task(task_prompt, prompts, max_steps=50):
         # 2. Analyst (分析)
         print("🧠 [Analyst] 正在分析...")
         try:
-            resp_analyst = client_analyst.chat.completions.create(
-                model=ANALYST_MODEL,
+            resp_analyst = client.chat.completions.create(
+                model=ENDPOINT_ID,
                 messages=[
                     {"role": "system", "content": prompts['analyst_prompt']},
                     {"role": "user", "content":user_content}
@@ -276,8 +255,8 @@ def run_agent_task(task_prompt, prompts, max_steps=50):
             请根据上级指令，生成对应的 JSON 动作。
             """
 
-            resp_executor = client_executor.chat.completions.create(
-                model=EXECUTOR_MODEL,
+            resp_executor = client.chat.completions.create(
+                model=ENDPOINT_ID,
                 messages=[
                     {"role": "system", "content": prompts['executor_prompt']},
                     {"role": "user", "content": [
@@ -290,15 +269,15 @@ def run_agent_task(task_prompt, prompts, max_steps=50):
             response_text = resp_executor.choices[0].message.content
 
             try:
-                # 1. 提取 JSON
+                # 1. 提取最外层 JSON (防止被内容中的 } 截断)
                 start_idx = response_text.find('{')
                 end_idx = response_text.rfind('}')
                 if start_idx != -1 and end_idx != -1:
                     json_str = response_text[start_idx: end_idx + 1]
                 else:
-                    raise ValueError("未找到 JSON")
+                    raise ValueError("未找到 JSON 对象")
 
-                # 2. 清洗 JSON (坐标、逗号、注释)
+                # 2. Point 坐标格式清洗 (确保是数字列表)
                 def sanitize_point(match):
                     content = match.group(1)
                     nums = re.findall(r"\d+", content)
@@ -306,61 +285,53 @@ def run_agent_task(task_prompt, prompts, max_steps=50):
                     return '"point": [0, 0]'
 
                 json_str = re.sub(r'"point"\s*:\s*\[(.*?)\]', sanitize_point, json_str)
+
+                # 3. 强力清除尾随逗号 (Trailing Commas)
+                # 匹配：逗号 + 任意空白 + 结束符(}或])
                 json_str = re.sub(r',(\s*[}\]])', r'\1', json_str)
+
+                # 4. 清除注释 (// 或 /* */)
                 json_str = re.sub(r'//.*', '', json_str)
                 json_str = re.sub(r'/\*.*?\*/', '', json_str, flags=re.DOTALL)
 
-                # 3. 加载 JSON
-                data = json.loads(json_str)
+                try:
+                    action_data = json.loads(json_str)
 
-                # 🔥 核心修改：支持 batch 数组 或 单个 action 兼容
-                actions_list = []
-                if "batch" in data and isinstance(data["batch"], list):
-                    actions_list = data["batch"]
-                else:
-                    # 兼容旧格式（如果模型偶尔只吐单个对象）
-                    actions_list = [data]
+                    # 🔥🔥🔥 新增：打印 Executor 的思考过程，让你看到它为什么瞎点 🔥🔥🔥
+                    print(f"🤖 Executor Thought: {action_data.get('thought', '无')}")
+                    print(f"📝 Action Summary:   {action_data.get('summary', '无')}")
+                    # -------------------------------------------------------------
 
-                print(f"🤖 Executor Thought: {data.get('thought', '无')}")
+                    is_finished, action_desc = execute_action(action_data)
 
-                # 🔥 循环执行所有动作
-                step_logs = []
-                for idx, action_item in enumerate(actions_list):
-                    print(f"  └─ 动作 {idx + 1}/{len(actions_list)}: {action_item.get('summary', '无')}")
+                    full_analysis_log = analysis_plan.replace('\n', '  ').strip()
+                    # 📝 详细日志记录
+                    thought = action_data.get("thought", "无思考")
+                    summary = action_data.get("summary", "无描述")
+                    # 格式: Step X: CLICK(..)[描述] | Thought: ...
+                    log_entry = f"Step {step + 1}: {action_desc} | 🧠 Analysis: {full_analysis_log} | 🖐️ Summary: {summary} | 🤔 Thought: {thought}"
+                    history_log.append(log_entry)
 
-                    is_finished, action_desc = execute_action(action_item)
-                    step_logs.append(action_desc)
-
-                    # 动作间增加微小延迟，防止操作过快网页反应不过来
-                    if idx < len(actions_list) - 1:
-                        time.sleep(0.8)
+                    # ⏱️ 打印耗时
+                    elapsed = time.time() - start_time
+                    avg_time = elapsed / (step + 1)
+                    print(f"⏱️ 已用: {elapsed:.2f}s，平均每步: {avg_time:.2f}s")
 
                     if is_finished:
                         print("🎉 任务完成！")
                         return
-
-                # 记录日志 (把这一批动作合并记录)
-                full_analysis_log = analysis_plan.replace('\n', '  ').strip()
-                combined_actions = " -> ".join(step_logs)
-                log_entry = f"Step {step + 1}: [{combined_actions}] | 🧠 {full_analysis_log}"
-                history_log.append(log_entry)
-
-
-                elapsed = time.time() - start_time
-                avg_time = elapsed / (step + 1)
-                print(f"⏱️ 总耗时: {elapsed:.2f}s | 本轮平均: {avg_time:.2f}s")
-
+                except json.JSONDecodeError as e:
+                    print(f"⚠️ JSON 解析失败: {e}\n内容: {json_str}")
+                    history_log.append(f"Step {step + 1}: ERROR(JSON解析失败)")
             except json.JSONDecodeError as e:
-                print(f"⚠️ JSON 解析失败: {e}")
-                # Debug: print(json_str)
-                history_log.append(f"Step {step + 1}: ERROR(JSON)")
-                # --- 👆 解析逻辑修改结束 👆 ---
+                print(f"⚠️ JSON 解析失败: {e}\n内容: {response_text}")
+                history_log.append(f"Step {step + 1}: ERROR(JSON解析失败)")
 
         except Exception as e:
             print(f"❌ Executor 失败: {e}")
             history_log.append(f"Step {step + 1}: ERROR({str(e)})")
 
-        time.sleep(5)
+        time.sleep(1)
 
     print("🏁 达到最大步数，流程结束")
 

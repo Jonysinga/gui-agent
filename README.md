@@ -1,10 +1,5 @@
 # UI Agent 使用文档
 
-> 架构说明见 [PROJECT_INTRO.md](PROJECT_INTRO.md)。
-> 入口为 `main.py`（调用 `agent.py`），读取根目录的 `prompt.yaml` + `tasks.yaml`。
-> `configs/` 下保存针对携程/道旅/什么值得买/好大夫等不同站点迭代过的 prompt/tasks 历史版本，
-> `tests/` 下为模型连通性与点击准确率评测脚本。
-
 测试携程订票功能，完成配置后，运行main.py(具体指令见后面)，运行成功后打开chrome浏览器空页面，全屏。  然后等待即可，程序会自行操作（macos下需要一些权限设置，比如 点击屏幕，截图，滚轮等等，第一次使用需要注意开一下这些权限），一次测试可能需要5min以上，具体看任务的复杂程度和设置的max_steps数，到携程支付界面就算成功（需要先登录携程账号）
 
 注意点：
@@ -51,17 +46,6 @@ source .venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-
-### 4. 配置 API Key
-
-复制 `.env.example` 为 `.env`，填入真实密钥（`.env` 已被 git 忽略，不会提交）：
-
-```bash
-cp .env.example .env
-# 然后编辑 .env，填入 GEMINI_API_KEY（以及使用豆包后端时的 DOUBAO_API_KEY）
-```
-
-本地 vLLM 后端（UI-TARS / GUI-Owl）的 `api_key` 为 `EMPTY`，无需配置。
 
 ## 二、修改配置（主要部分）
 
@@ -184,7 +168,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 
 # 4. 修改配置文件
-# - 复制 .env.example 为 .env 并填入 API Key
+# - 打开 agent.py 修改 API Key
 # - 打开 prompt.yaml 修改 Prompt
 # - 打开 tasks.yaml 修改任务
 
