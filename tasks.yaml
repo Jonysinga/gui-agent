@@ -4,1002 +4,802 @@
 # 任务列表
 tasks:
   - name: "携程订酒店_task_000"
-    description: "预订厦门鼓浪屿附近酒店，入住时间5月4日到5月7日，入住人马艳，电话13997439533，邮箱user000@sina.com"
+    description: "预订厦门鼓浪屿附近酒店，入住时间5月4日到5月7日，入住人马艳，电话13997439533，邮箱马艳@sina.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_001"
-    description: "预订厦门鼓浪屿附近酒店，入住时间5月21日到5月24日，预算500-800元，入住人张涛，电话13669409749，邮箱user001@sina.com"
+    description: "打开酒店日期选择那，帮我翻一下4月 5月 6月 7月 8月 9月 10月 11月 的日历，你帮我都切换一遍就行，不用选日期"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_002"
-    description: "预订青岛栈桥附近酒店，入住时间4月12日到4月14日，预算400-600元，入住人李敏杰，电话13425358414，邮箱user002_9025@gmail.com"
+    description: "预订青岛栈桥附近酒店，入住时间4月12日到4月14日，预算400-600元，入住人李敏杰，电话13425358414，邮箱李敏杰9025@gmail.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_003"
-    description: "预订杭州西湖附近酒店，入住时间5月27日到5月29日，预算500-1000元，入住人吴杰丽，电话13626042232，邮箱user003@sohu.com"
+    description: "预订杭州西湖附近酒店，入住时间5月27日到5月29日，预算500-1000元，入住人吴杰丽，电话13626042232，邮箱吴杰丽@sohu.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_004"
-    description: "预订大连星海广场附近酒店，入住时间3月20日到3月21日，入住人何秀英，电话15985977034，邮箱user004@gmail.com"
+    description: "预订大连星海广场附近酒店，入住时间3月20日到3月21日，入住人何秀英，电话15985977034，邮箱何秀英@gmail.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_005"
-    description: "预订成都春熙路附近酒店，入住时间5月6日到5月10日，入住人黄静，电话18742353693，邮箱user005@sina.com"
+    description: "预订成都春熙路附近酒店，入住时间5月6日到5月10日，入住人黄静，电话18742353693，邮箱黄静@sina.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_006"
-    description: "预订上海外滩附近酒店，5月18日入住，住3晚，预算300-800元，入住人马明静，电话18302895171，邮箱user006@outlook.com"
+    description: "预订上海外滩附近酒店，5月18日入住，住3晚，预算300-800元，入住人马明静，电话18302895171，邮箱马明静@outlook.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_007"
-    description: "预订青岛栈桥附近酒店，入住时间5月17日到5月19日，入住人孙浩，电话18251401051，邮箱user007@163.com"
+    description: "预订青岛栈桥附近酒店，入住时间5月17日到5月19日，入住人孙浩，电话18251401051，邮箱孙浩@163.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_008"
-    description: "预订深圳世界之窗附近酒店，5月12日入住，住2晚，入住人高娟，电话13478774701，邮箱user008@126.com"
+    description: "预订深圳世界之窗附近酒店，5月12日入住，住2晚，入住人高娟，电话13478774701，邮箱高娟@126.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_009"
-    description: "预订杭州西湖附近酒店，入住时间4月27日到5月1日，预算500-900元，入住人刘超，电话15071543799，邮箱user009_1753@163.com"
+    description: "预订杭州西湖附近酒店，入住时间4月27日到5月1日，预算500-900元，入住人刘超，电话15071543799，邮箱刘超1753@163.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_010"
-    description: "预订重庆洪崖洞附近酒店，入住时间4月17日到4月19日，预算400-800元，入住人马秀英军，电话13550714611，邮箱user010@sina.com"
+    description: "预订重庆洪崖洞附近酒店，入住时间4月17日到4月19日，预算400-800元，入住人马秀英军，电话13550714611，邮箱马秀英军@sina.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_011"
-    description: "预订重庆洪崖洞附近酒店，入住时间5月5日到5月8日，入住人林秀英艳，电话13621655852，邮箱user011_8342@outlook.com"
+    description: "预订重庆洪崖洞附近酒店，入住时间5月5日到5月8日，入住人林秀英艳，电话13621655852，邮箱林秀英艳8342@outlook.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_012"
-    description: "预订青岛栈桥附近酒店，入住时间5月9日到5月12日，预算400-700元，入住人周秀英，电话15286629619，邮箱user012_4038@sina.com"
+    description: "预订青岛栈桥附近酒店，入住时间5月9日到5月12日，预算400-700元，入住人周秀英，电话15286629619，邮箱周秀英4038@sina.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_013"
-    description: "预订重庆洪崖洞附近酒店，入住时间5月13日到5月16日，入住人赵强浩，电话15130463745，邮箱user013@sina.com"
+    description: "预订重庆洪崖洞附近酒店，入住时间5月13日到5月16日，入住人赵强浩，电话15130463745，邮箱赵强浩@sina.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_014"
-    description: "预订大连星海广场附近酒店，入住时间4月19日到4月21日，入住人陈秀英华，电话18768826343，邮箱user014@qq.com"
+    description: "预订大连星海广场附近酒店，入住时间4月19日到4月21日，入住人陈秀英华，电话18768826343，邮箱陈秀英华@qq.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_015"
-    description: "预订北京故宫附近酒店，入住时间5月6日到5月8日，预算500-800元，入住人马霞娜，电话15998373540，邮箱user015_3114@sina.com"
+    description: "预订北京故宫附近酒店，入住时间5月6日到5月8日，预算500-800元，入住人马霞娜，电话15998373540，邮箱马霞娜3114@sina.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_016"
-    description: "预订南京夫子庙附近酒店，入住时间4月11日到4月14日，入住人胡静，电话15798776945，邮箱user016@sohu.com"
+    description: "预订南京夫子庙附近酒店，入住时间4月11日到4月14日，入住人胡静，电话15798776945，邮箱胡静@sohu.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_017"
-    description: "预订武汉黄鹤楼附近酒店，入住时间5月9日到5月10日，预算500-1000元，入住人胡霞，电话15099125134，邮箱user017_6117@sina.com"
+    description: "预订武汉黄鹤楼附近酒店，入住时间5月9日到5月10日，预算500-1000元，入住人胡霞，电话15099125134，邮箱胡霞6117@sina.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_018"
-    description: "预订长沙橘子洲附近酒店，5月31日入住，住3晚，预算400-800元，入住人徐静，电话18374490581，邮箱user018@outlook.com"
+    description: "预订长沙橘子洲附近酒店，5月31日入住，住3晚，预算400-800元，入住人徐静，电话18374490581，邮箱徐静@outlook.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_019"
-    description: "预订北京故宫附近酒店，入住时间3月28日到4月1日，入住人张丽静，电话15060953962，邮箱user019@qq.com"
+    description: "预订北京故宫附近酒店，入住时间3月28日到4月1日，入住人张丽静，电话15060953962，邮箱张丽静@qq.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_020"
-    description: "预订北京故宫附近酒店，5月13日入住，住1晚，要求评分4.5以上且含早餐。入住人王超，电话15228098851，邮箱user020@sohu.com"
+    description: "预订北京故宫附近酒店，5月13日入住，住1晚，入住人王超，电话15228098851，邮箱王超@sohu.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_021"
-    description: "预订大连星海广场附近酒店，入住时间4月24日到4月27日，预算800-1300元，要求5星级酒店。入住人李超，电话13759696641，邮箱user021@gmail.com"
+    description: "预订大连星海广场附近酒店，入住时间4月24日到4月27日，预算800-1300元，入住人李超，电话13759696641，邮箱李超@gmail.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_022"
-    description: "预订厦门鼓浪屿附近酒店，入住时间3月27日到3月29日，要求评分4.7以上且为双床房。入住人何娟浩，电话18852785854，邮箱user022@163.com"
+    description: "预订厦门鼓浪屿附近酒店，入住时间3月27日到3月29日，入住人何娟浩，电话18852785854，邮箱何娟浩@163.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_023"
-    description: "预订大连星海广场附近酒店，4月26日入住，住4晚，要求4星级以上并含早餐。入住人黄秀英明，电话15998214658，邮箱user023_43@gmail.com"
+    description: "预订大连星海广场附近酒店，4月26日入住，住4晚，入住人黄秀英明，电话15998214658，邮箱黄秀英明43@gmail.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_024"
-    description: "预订重庆洪崖洞附近酒店，入住时间4月4日到4月8日，要求亲子房型。入住人吴磊军，电话13950097882，邮箱user024_8321@qq.com"
+    description: "预订重庆洪崖洞附近酒店，入住时间4月4日到4月8日，入住人吴磊军，电话13950097882，邮箱吴磊军8321@qq.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_025"
-    description: "预订深圳世界之窗附近酒店，入住时间3月26日到3月27日，预算400-700元，要求评分4.5以上。入住人黄华，电话13928439599，邮箱user025@sohu.com"
+    description: "预订深圳世界之窗附近酒店，入住时间3月26日到3月27日，预算400-700元，入住人黄华，电话13928439599，邮箱黄华@sohu.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_026"
-    description: "预订长沙橘子洲附近酒店，入住时间4月1日到4月5日，预算400-700元，要求含早餐的双床房。入住人刘秀英，电话18732424154，邮箱user026_2712@qq.com"
+    description: "预订长沙橘子洲附近酒店，入住时间4月1日到4月5日，预算400-700元，入住人刘秀英，电话18732424154，邮箱刘秀英2712@qq.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_027"
-    description: "预订杭州西湖附近酒店，5月2日入住，住4晚，要求5星级且评分4.7以上。入住人郭秀英，电话15222872808，邮箱user027_1218@sohu.com"
+    description: "预订杭州西湖附近酒店，5月2日入住，住4晚，入住人郭秀英，电话15222872808，邮箱郭秀英1218@sohu.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_028"
-    description: "预订长沙橘子洲附近酒店，5月13日入住，住1晚，要求评分4.5以上的亲子房。入住人张磊，电话13593870051，邮箱user028@outlook.com"
+    description: "预订长沙橘子洲附近酒店，5月13日入住，住1晚，入住人张磊，电话13593870051，邮箱张磊@outlook.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_029"
-    description: "预订厦门鼓浪屿附近酒店，入住时间3月30日到4月3日，要求4星级且含早餐。入住人罗强娟，电话13615447962，邮箱user029@gmail.com"
+    description: "预订厦门鼓浪屿附近酒店，入住时间3月30日到4月3日，入住人罗强娟，电话13615447962，邮箱罗强娟@gmail.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_030"
-    description: "预订武汉黄鹤楼附近酒店，入住时间4月16日到4月19日，要求双床房。入住人黄军伟，电话15790278742，邮箱user030@outlook.com"
+    description: "预订武汉黄鹤楼附近酒店，入住时间4月16日到4月19日，入住人黄军伟，电话15790278742，邮箱黄军伟@outlook.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_031"
-    description: "预订青岛栈桥附近酒店，入住时间4月6日到4月10日，预算800-1300元，要求5星级且评分4.7以上。入住人张娜，电话15928986143，邮箱user031@qq.com"
+    description: "预订青岛栈桥附近酒店，入住时间4月6日到4月10日，预算800-1300元，入住人张娜，电话15928986143，邮箱张娜@qq.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_032"
-    description: "预订西安兵马俑附近酒店，入住时间3月30日到3月31日，预算200-700元，要求评分4.5以上。入住人朱娟，电话13625674680，邮箱user032@gmail.com"
+    description: "预订西安兵马俑附近酒店，入住时间3月30日到3月31日，预算200-700元，入住人朱娟，电话13625674680，邮箱朱娟@gmail.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_033"
-    description: "预订成都春熙路附近酒店，入住时间5月21日到5月24日，预算200-600元，要求含早餐。入住人孙敏浩，电话13898593174，邮箱user033@qq.com"
+    description: "预订成都春熙路附近酒店，入住时间5月21日到5月24日，预算200-600元，入住人孙敏浩，电话13898593174，邮箱孙敏浩@qq.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_034"
-    description: "预订长沙橘子洲附近酒店，入住时间11月22日到11月23日，预算500-900元，要求4星级并提供双床房。入住人朱洋，电话13761799042，邮箱user034_2249@sina.com"
+    description: "预订长沙橘子洲附近酒店，入住时间11月22日到11月23日，预算500-900元，入住人朱洋，电话13761799042，邮箱朱洋2249@sina.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_035"
-    description: "预订广州塔附近酒店，3月27日入住，住3晚，预算500-700元，要求评分4.7以上。入住人何丽霞，电话15170154303，邮箱user035@qq.com"
+    description: "预订广州塔附近酒店，3月27日入住，住3晚，预算500-700元，入住人何丽霞，电话15170154303，邮箱何丽霞@qq.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_036"
-    description: "预订北京故宫附近酒店，入住时间5月11日到5月12日，预算300-700元，要求含早餐的亲子房。入住人何娜娟，电话18804661839，邮箱user036@sina.com"
+    description: "预订北京故宫附近酒店，入住时间5月11日到5月12日，预算300-700元，入住人何娜娟，电话18804661839，邮箱何娜娟@sina.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_037"
-    description: "预订青岛栈桥附近酒店，4月2日入住，住4晚，要求4星级且评分4.5以上。入住人罗霞华，电话13894024455，邮箱user037_2348@126.com"
+    description: "预订青岛栈桥附近酒店，4月2日入住，住4晚，入住人罗霞华，电话13894024455，邮箱罗霞华2348@126.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_038"
-    description: "预订南京夫子庙附近酒店，5月28日入住，住4晚，要求双床房且含早餐。入住人黄秀英，电话15731069033，邮箱user038_9732@qq.com"
+    description: "预订南京夫子庙附近酒店，5月28日入住，住4晚，入住人黄秀英，电话15731069033，邮箱黄秀英9732@qq.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_039"
-    description: "预订长沙橘子洲附近酒店，入住时间5月30日到6月3日，预算300-500元，要求评分4.5以上。入住人罗静，电话13554629148，邮箱user039@sohu.com"
+    description: "预订长沙橘子洲附近酒店，入住时间5月30日到6月3日，预算300-500元，入住人罗静，电话13554629148，邮箱罗静@sohu.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_040"
-    description: "预订北京故宫附近酒店，5月30日入住，住3晚，要求5星级。入住人胡磊杰，电话18331217271，邮箱user040@sohu.com"
+    description: "预订北京故宫附近酒店，5月30日入住，住3晚，入住人胡磊杰，电话18331217271，邮箱胡磊杰@sohu.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_041"
-    description: "预订大连星海广场附近酒店，4月13日入住，住4晚，要求评分4.7以上的双床房。入住人林浩，电话18367721903，邮箱user041_4504@163.com"
+    description: "预订大连星海广场附近酒店，4月13日入住，住4晚，入住人林浩，电话18367721903，邮箱林浩4504@163.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_042"
-    description: "预订西安兵马俑附近酒店，入住时间3月25日到3月28日，要求4星级且含早餐。入住人赵秀英霞，电话13984700766，邮箱user042@outlook.com"
+    description: "预订西安兵马俑附近酒店，入住时间3月25日到3月28日，入住人赵秀英霞，电话13984700766，邮箱赵秀英霞@outlook.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_043"
-    description: "预订杭州西湖附近酒店，入住时间5月28日到6月1日，要求评分4.5以上的亲子房。入住人吴秀英，电话13707991183，邮箱user043@163.com"
+    description: "预订杭州西湖附近酒店，入住时间5月28日到6月1日，入住人吴秀英，电话13707991183，邮箱吴秀英@163.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_044"
-    description: "预订大连星海广场附近酒店，入住时间4月15日到4月17日，要求含早餐。入住人周娟明，电话13758657809，邮箱user044_4709@163.com"
+    description: "预订大连星海广场附近酒店，入住时间4月15日到4月17日，入住人周娟明，电话13758657809，邮箱周娟明4709@163.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_045"
-    description: "预订杭州西湖附近酒店，入住时间5月2日到5月5日，要求5星级。入住人徐磊艳，电话18340164005，邮箱user045@sina.com"
+    description: "预订杭州西湖附近酒店，入住时间5月2日到5月5日，入住人徐磊艳，电话18340164005，邮箱徐磊艳@sina.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_046"
-    description: "预订青岛栈桥附近酒店，3月24日入住，住1晚，预算300-800元，要求评分4.7以上。入住人何磊，电话15865766156，邮箱user046@gmail.com"
+    description: "预订青岛栈桥附近酒店，3月24日入住，住1晚，预算300-800元，入住人何磊，电话15865766156，邮箱何磊@gmail.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_047"
-    description: "预订大连星海广场附近酒店，5月4日入住，住1晚，预算200-400元，要求含早餐。入住人马磊磊，电话18345458929，邮箱user047@sohu.com"
+    description: "预订大连星海广场附近酒店，5月4日入住，住1晚，预算200-400元，入住人马磊磊，电话18345458929，邮箱马磊磊@sohu.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_048"
-    description: "预订南京夫子庙附近酒店，入住时间4月15日到4月17日，要求4星级评分4.5以上。入住人吴明，电话15244587717，邮箱user048@gmail.com"
+    description: "预订南京夫子庙附近酒店，入住时间4月15日到4月17日，入住人吴明，电话15244587717，邮箱吴明@gmail.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_049"
-    description: "预订北京故宫附近酒店，入住时间5月6日到5月8日，要求双床房。入住人何秀英，电话13447317810，邮箱user049@126.com"
+    description: "预订北京故宫附近酒店，入住时间5月6日到5月8日，入住人何秀英，电话13447317810，邮箱何秀英@126.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_050"
-    description: "预订武汉黄鹤楼附近酒店，入住时间4月20日到4月21日，入住人吴磊艳，电话15051076226，邮箱user050@163.com，4星级，含早餐"
+    description: "预订武汉黄鹤楼附近酒店，入住时间4月20日到4月21日，入住人吴磊艳，电话15051076226，邮箱吴磊艳@163.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_051"
-    description: "预订青岛栈桥附近酒店，入住时间5月3日到5月5日，入住人王霞霞，电话15879237474，邮箱user051@sohu.com，双床房，评分4.5以上，含早餐"
+    description: "预订青岛栈桥附近酒店，入住时间5月3日到5月5日，入住人王霞霞，电话15879237474，邮箱王霞霞@sohu.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_052"
-    description: "预订广州塔附近酒店，9月3日入住，住3晚，入住人高敏，电话13800307562，邮箱user052_580@126.com，5星级，评分4.7以上"
+    description: "预订广州塔附近酒店，9月3日入住，住3晚，入住人高敏，电话13800307562，邮箱高敏580@126.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_053"
-    description: "预订厦门鼓浪屿附近酒店，5月12日入住，住4晚，预算800-1100元，入住人杨洋霞，电话13787851910，邮箱user053@126.com，亲子房，4星级"
+    description: "预订厦门鼓浪屿附近酒店，5月12日入住，住4晚，预算800-1100元，入住人杨洋霞，电话13787851910，邮箱杨洋霞@126.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_054"
-    description: "预订北京故宫附近酒店，4月6日入住，住2晚，预算800-1000元，入住人张娜磊，电话18867525459，邮箱user054@qq.com，评分4.5以上，双床房"
+    description: "预订北京故宫附近酒店，4月6日入住，住2晚，预算800-1000元，入住人张娜磊，电话18867525459，邮箱张娜磊@qq.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_055"
-    description: "预订长沙橘子洲附近酒店，3月26日入住，住4晚，入住人何敏丽，电话13641247826，邮箱user055_3638@sohu.com，5星级，含早餐，评分4.7以上"
+    description: "预订长沙橘子洲附近酒店，3月26日入住，住4晚，入住人何敏丽，电话13641247826，邮箱何敏丽3638@sohu.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_056"
-    description: "预订西安兵马俑附近酒店，4月21日入住，住4晚，入住人孙敏涛，电话15206431713，邮箱user056@126.com，双床房"
+    description: "预订西安兵马俑附近酒店，4月21日入住，住4晚，入住人孙敏涛，电话15206431713，邮箱孙敏涛@126.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_057"
-    description: "预订大连星海广场附近酒店，5月27日入住，住4晚，入住人胡华，电话15188675339，邮箱user057@sohu.com，4星级，评分4.5以上，含早餐"
+    description: "预订大连星海广场附近酒店，5月27日入住，住4晚，入住人胡华，电话15188675339，邮箱胡华@sohu.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_058"
-    description: "预订西安兵马俑附近酒店，入住时间5月20日到5月23日，入住人何娟，电话18244431351，邮箱user058@sohu.com，亲子房，评分4.7以上"
+    description: "预订西安兵马俑附近酒店，入住时间5月20日到5月23日，入住人何娟，电话18244431351，邮箱何娟@sohu.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_059"
-    description: "预订上海外滩附近酒店，入住时间4月14日到4月15日，入住人陈秀英，电话15765375564，邮箱user059@sohu.com，5星级，双床房"
+    description: "预订上海外滩附近酒店，入住时间4月14日到4月15日，入住人陈秀英，电话15765375564，邮箱陈秀英@sohu.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_060"
-    description: "预订青岛栈桥附近酒店，入住时间4月1日到4月3日，入住人李杰芳，电话15221456232，邮箱user060@gmail.com，评分4.5以上"
+    description: "预订青岛栈桥附近酒店，入住时间4月1日到4月3日，入住人李杰芳，电话15221456232，邮箱李杰芳@gmail.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_061"
-    description: "预订上海外滩附近酒店，3月25日入住，住2晚，入住人郭丽，电话13559526949，邮箱user061@sohu.com，4星级，含早餐，双床房"
+    description: "预订上海外滩附近酒店，3月25日入住，住2晚，入住人郭丽，电话13559526949，邮箱郭丽@sohu.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_062"
-    description: "预订武汉黄鹤楼附近酒店，入住时间4月6日到4月10日，入住人郭华强，电话13474225790，邮箱user062@qq.com，评分4.7以上"
+    description: "预订武汉黄鹤楼附近酒店，入住时间4月6日到4月10日，入住人郭华强，电话13474225790，邮箱郭华强@qq.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_063"
-    description: "预订重庆洪崖洞附近酒店，4月18日入住，住3晚，入住人徐敏，电话13470482814，邮箱user063@126.com，亲子房，4星级，评分4.5以上"
+    description: "预订重庆洪崖洞附近酒店，4月18日入住，住3晚，入住人徐敏，电话13470482814，邮箱徐敏@126.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_064"
-    description: "预订青岛栈桥附近酒店，入住时间5月23日到5月25日，入住人黄磊，电话13937917693，邮箱user064@outlook.com，5星级，含早餐"
+    description: "预订青岛栈桥附近酒店，入住时间5月23日到5月25日，入住人黄磊，电话13937917693，邮箱黄磊@outlook.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_065"
-    description: "预订武汉黄鹤楼附近酒店，5月1日入住，住1晚，预算300-600元，入住人李洋，电话18340148902，邮箱user065@gmail.com，双床房，评分4.5以上"
+    description: "预订武汉黄鹤楼附近酒店，5月1日入住，住1晚，预算300-600元，入住人李洋，电话18340148902，邮箱李洋@gmail.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_066"
-    description: "预订重庆洪崖洞附近酒店，入住时间5月13日到5月16日，入住人吴强娟，电话18333221418，邮箱user066@sohu.com，4星级"
+    description: "预订重庆洪崖洞附近酒店，入住时间5月13日到5月16日，入住人吴强娟，电话18333221418，邮箱吴强娟@sohu.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_067"
-    description: "预订广州塔附近酒店，8月21日入住，住4晚，预算400-900元，入住人高超，电话13471091043，邮箱user067_991@sohu.com，含早餐，评分4.7以上，双床房"
+    description: "预订广州塔附近酒店，8月21日入住，住4晚，预算400-900元，入住人高超，电话13471091043，邮箱高超991@sohu.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_068"
-    description: "预订青岛栈桥附近酒店，3月31日入住，住4晚，预算400-700元，入住人李杰涛，电话13698327315，邮箱user068@gmail.com，亲子房"
+    description: "预订青岛栈桥附近酒店，3月31日入住，住4晚，预算400-700元，入住人李杰涛，电话13698327315，邮箱李杰涛@gmail.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_069"
-    description: "预订长沙橘子洲附近酒店，入住时间4月22日到4月25日，预算800-1200元，入住人李敏，电话13468414593，邮箱user069_2189@outlook.com，5星级，评分4.5以上"
+    description: "预订长沙橘子洲附近酒店，入住时间4月22日到4月25日，预算800-1200元，入住人李敏，电话13468414593，邮箱李敏2189@outlook.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_070"
-    description: "预订杭州西湖附近酒店，4月13日入住，住3晚，入住人李娟，电话15266765277，邮箱user070@sohu.com，4星级，含早餐"
+    description: "预订杭州西湖附近酒店，4月13日入住，住3晚，入住人李娟，电话15266765277，邮箱李娟@sohu.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_071"
-    description: "预订厦门鼓浪屿附近酒店，5月17日入住，住3晚，入住人罗敏军，电话13958651850，邮箱user071@sohu.com，双床房，评分4.7以上"
+    description: "预订厦门鼓浪屿附近酒店，5月17日入住，住3晚，入住人罗敏军，电话13958651850，邮箱罗敏军@sohu.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_072"
-    description: "预订深圳世界之窗附近酒店，5月27日入住，住3晚，入住人郭磊，电话18274688623，邮箱user072@163.com，亲子房，4星级，含早餐"
+    description: "预订深圳世界之窗附近酒店，5月27日入住，住3晚，入住人郭磊，电话18274688623，邮箱郭磊@163.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_073"
-    description: "预订青岛栈桥附近酒店，入住时间5月24日到5月27日，入住人林明华，电话15101429401，邮箱user073@gmail.com，评分4.5以上，双床房"
+    description: "预订青岛栈桥附近酒店，入住时间5月24日到5月27日，入住人林明华，电话15101429401，邮箱林明华@gmail.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_074"
-    description: "预订南京夫子庙附近酒店，3月22日入住，住3晚，预算500-900元，入住人杨军，电话18751801704，邮箱user074@sohu.com，5星级"
+    description: "预订南京夫子庙附近酒店，3月22日入住，住3晚，预算500-900元，入住人杨军，电话18751801704，邮箱杨军@sohu.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_075"
-    description: "预订武汉黄鹤楼附近酒店，入住时间5月15日到5月17日，入住人周超，电话18856272980，邮箱user075@126.com，含早餐，评分4.7以上"
+    description: "预订武汉黄鹤楼附近酒店，入住时间5月15日到5月17日，入住人周超，电话18856272980，邮箱周超@126.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_076"
-    description: "预订青岛栈桥附近酒店，入住时间4月19日到4月21日，预算400-600元，入住人郭华，电话18738346578，邮箱user076@163.com，4星级，双床房，亲子房"
+    description: "预订青岛栈桥附近酒店，入住时间4月19日到4月21日，预算400-600元，入住人郭华，电话18738346578，邮箱郭华@163.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_077"
-    description: "预订重庆洪崖洞附近酒店，入住时间10月12日到10月15日，预算500-800元，入住人陈艳敏，电话13856481491，邮箱user077@126.com，评分4.5以上"
+    description: "预订重庆洪崖洞附近酒店，入住时间10月12日到10月15日，预算500-800元，入住人陈艳敏，电话13856481491，邮箱陈艳敏@126.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_078"
-    description: "预订武汉黄鹤楼附近酒店，入住时间5月9日到5月12日，入住人赵杰超，电话15164823662，邮箱user078@gmail.com，5星级，含早餐"
+    description: "预订武汉黄鹤楼附近酒店，入住时间5月9日到5月12日，入住人赵杰超，电话15164823662，邮箱赵杰超@gmail.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_079"
-    description: "预订长沙橘子洲附近酒店，入住时间5月11日到5月15日，入住人吴洋，电话13566179796，邮箱user079@sohu.com，亲子房，评分4.7以上"
+    description: "预订长沙橘子洲附近酒店，入住时间5月11日到5月15日，入住人吴洋，电话13566179796，邮箱吴洋@sohu.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_080"
-    description: "预订北京故宫附近酒店，入住时间10月1日到10月3日，入住人赵敏，电话15026221890，邮箱user080@163.com，4星级，双床房，含早餐"
+    description: "预订北京故宫附近酒店，入住时间10月1日到10月3日，入住人赵敏，电话15026221890，邮箱赵敏@163.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_081"
-    description: "预订西安兵马俑附近酒店，入住时间5月7日到5月11日，入住人何静涛，电话13628682300，邮箱user081@outlook.com，评分4.5以上，双床房"
+    description: "预订西安兵马俑附近酒店，入住时间5月7日到5月11日，入住人何静涛，电话13628682300，邮箱何静涛@outlook.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_082"
-    description: "预订厦门鼓浪屿附近酒店，入住时间5月3日到5月4日，预算800-1100元，入住人吴杰强，电话15283132370，邮箱user082@126.com，5星级，评分4.7以上"
+    description: "预订厦门鼓浪屿附近酒店，入住时间5月3日到5月4日，预算800-1100元，入住人吴杰强，电话15283132370，邮箱吴杰强@126.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_083"
-    description: "预订杭州西湖附近酒店，入住时间3月29日到3月30日，入住人赵磊艳，电话13723281206，邮箱user083@126.com，亲子房，4星级"
+    description: "预订杭州西湖附近酒店，入住时间3月29日到3月30日，入住人赵磊艳，电话13723281206，邮箱赵磊艳@126.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_084"
-    description: "预订北京故宫附近酒店，入住时间3月31日到4月3日，入住人郭丽，电话18791251778，邮箱user084@sohu.com，含早餐，评分4.5以上"
+    description: "预订北京故宫附近酒店，入住时间3月31日到4月3日，入住人郭丽，电话18791251778，邮箱郭丽@sohu.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_085"
-    description: "预订杭州西湖附近酒店，入住时间4月20日到4月21日，预算200-600元，入住人孙娜，电话13633959629，邮箱user085_3386@sohu.com，双床房"
+    description: "预订杭州西湖附近酒店，入住时间4月20日到4月21日，预算200-600元，入住人孙娜，电话13633959629，邮箱孙娜3386@sohu.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_086"
-    description: "预订厦门鼓浪屿附近酒店，入住时间5月26日到5月30日，预算400-900元，入住人罗洋杰，电话13886131712，邮箱user086@sina.com，4星级，评分4.7以上，含早餐"
+    description: "预订厦门鼓浪屿附近酒店，入住时间5月26日到5月30日，预算400-900元，入住人罗洋杰，电话13886131712，邮箱罗洋杰@sina.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_087"
-    description: "预订长沙橘子洲附近酒店，入住时间4月17日到4月18日，预算300-800元，入住人朱浩超，电话15738156149，邮箱user087@sina.com，亲子房，双床房"
+    description: "预订长沙橘子洲附近酒店，入住时间4月17日到4月18日，预算300-800元，入住人朱浩超，电话15738156149，邮箱朱浩超@sina.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_088"
-    description: "预订深圳世界之窗附近酒店，12月2日入住，住2晚，入住人罗秀英娜，电话13621965652，邮箱user088_1381@163.com，5星级，评分4.5以上"
+    description: "预订深圳世界之窗附近酒店，12月2日入住，住2晚，入住人罗秀英娜，电话13621965652，邮箱罗秀英娜1381@163.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_089"
-    description: "预订青岛栈桥附近酒店，入住时间4月10日到4月14日，入住人郭华军，电话13648580783，邮箱user089@qq.com，含早餐"
+    description: "预订青岛栈桥附近酒店，入住时间4月10日到4月14日，入住人郭华军，电话13648580783，邮箱郭华军@qq.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_090"
-    description: "预订青岛栈桥附近酒店，入住时间5月7日到5月10日，入住人朱霞，电话15193752654，邮箱user090@sina.com，4星级，亲子房，评分4.7以上"
+    description: "预订青岛栈桥附近酒店，入住时间5月7日到5月10日，入住人朱霞，电话15193752654，邮箱朱霞@sina.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_091"
-    description: "预订成都春熙路附近酒店，入住时间4月20日到4月24日，入住人马涛，电话15998280737，邮箱user091@sohu.com，双床房，含早餐"
+    description: "预订成都春熙路附近酒店，入住时间4月20日到4月24日，入住人马涛，电话15998280737，邮箱马涛@sohu.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_092"
-    description: "预订厦门鼓浪屿附近酒店，入住时间11月30日到12月4日，入住人黄超娟，电话15719518023，邮箱user092@qq.com，评分4.5以上，4星级，双床房"
+    description: "预订厦门鼓浪屿附近酒店，入住时间11月30日到12月4日，入住人黄超娟，电话15719518023，邮箱黄超娟@qq.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_093"
-    description: "预订厦门鼓浪屿附近酒店，5月7日入住，住2晚，入住人徐涛，电话13847541212，邮箱user093@126.com，5星级，亲子房"
+    description: "预订厦门鼓浪屿附近酒店，5月7日入住，住2晚，入住人徐涛，电话13847541212，邮箱徐涛@126.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_094"
-    description: "预订武汉黄鹤楼附近酒店，入住时间4月7日到4月10日，入住人马秀英，电话13768457759，邮箱user094_1527@sina.com，评分4.7以上，含早餐"
+    description: "预订武汉黄鹤楼附近酒店，入住时间4月7日到4月10日，入住人马秀英，电话13768457759，邮箱马秀英1527@sina.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_095"
-    description: "预订成都春熙路附近酒店，入住时间4月28日到5月2日，入住人林敏，电话15940608835，邮箱user095@sina.com，4星级，双床房，评分4.5以上"
+    description: "预订成都春熙路附近酒店，入住时间4月28日到5月2日，入住人林敏，电话15940608835，邮箱林敏@sina.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_096"
-    description: "预订苏州园林附近酒店，5月8日入住，住1晚，入住人孙杰，电话15098084124，邮箱user096_1754@sina.com，亲子房"
+    description: "预订苏州园林附近酒店，5月8日入住，住1晚，入住人孙杰，电话15098084124，邮箱孙杰1754@sina.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_097"
-    description: "预订长沙橘子洲附近酒店，入住时间3月29日到3月30日，预算400-600元，入住人林明，电话13979359782，邮箱user097@outlook.com，5星级，含早餐，评分4.7以上"
+    description: "预订长沙橘子洲附近酒店，入住时间3月29日到3月30日，预算400-600元，入住人林明，电话13979359782，邮箱林明@outlook.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_098"
-    description: "预订深圳世界之窗附近酒店，入住时间4月19日到4月22日，预算800-1100元，入住人吴浩浩，电话15080162456，邮箱user098@outlook.com，双床房，4星级"
+    description: "预订深圳世界之窗附近酒店，入住时间4月19日到4月22日，预算800-1100元，入住人吴浩浩，电话15080162456，邮箱吴浩浩@outlook.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_099"
-    description: "预订南京夫子庙附近酒店，入住时间4月22日到4月24日，入住人赵明浩，电话15837543303，邮箱user099@gmail.com，评分4.5以上，含早餐"
+    description: "预订南京夫子庙附近酒店，入住时间4月22日到4月24日，入住人赵明浩，电话15837543303，邮箱赵明浩@gmail.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_100"
-    description: "预订深圳世界之窗附近酒店，入住时间5月7日到5月10日，入住人吴洋，电话15181223623，邮箱user100_6679@gmail.com"
+    description: "预订深圳世界之窗附近酒店，入住时间5月7日到5月10日，入住人吴洋，电话15181223623，邮箱吴洋6679@gmail.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_101"
-    description: "预订南京夫子庙附近酒店，3月20日入住，住2晚，入住人黄娜伟，电话15987509977，邮箱user101_8720@126.com"
+    description: "预订南京夫子庙附近酒店，3月20日入住，住2晚，入住人黄娜伟，电话15987509977，邮箱黄娜伟8720@126.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_102"
-    description: "预订大连星海广场附近酒店，入住时间3月28日到3月29日，预算300-800元，入住人何芳涛，电话15810033092，邮箱user102_7759@sina.com"
+    description: "预订大连星海广场附近酒店，入住时间3月28日到3月29日，预算300-800元，入住人何芳涛，电话15810033092，邮箱何芳涛7759@sina.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_103"
-    description: "预订苏州园林附近酒店，入住时间5月9日到5月10日，入住人高洋明，电话15162185016，邮箱user103_1246@gmail.com"
+    description: "预订苏州园林附近酒店，入住时间5月9日到5月10日，入住人高洋明，电话15162185016，邮箱高洋明1246@gmail.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_104"
-    description: "预订西安兵马俑附近酒店，入住时间4月27日到4月28日，预算400-700元，入住人何静，电话15286926179，邮箱user104@gmail.com"
+    description: "预订西安兵马俑附近酒店，入住时间4月27日到4月28日，预算400-700元，入住人何静，电话15286926179，邮箱何静@gmail.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_105"
-    description: "预订成都春熙路附近酒店，入住时间4月10日到4月14日，入住人杨军，电话18207286790，邮箱user105@sina.com"
+    description: "预订成都春熙路附近酒店，入住时间4月10日到4月14日，入住人杨军，电话18207286790，邮箱杨军@sina.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_106"
-    description: "预订青岛栈桥附近酒店，入住时间4月10日到4月13日，入住人高杰，电话18246488771，邮箱user106@outlook.com"
+    description: "预订青岛栈桥附近酒店，入住时间4月10日到4月13日，入住人高杰，电话18246488771，邮箱高杰@outlook.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_107"
-    description: "预订长沙橘子洲附近酒店，入住时间5月23日到5月25日，入住人高静，电话15190010943，邮箱user107@outlook.com"
+    description: "预订长沙橘子洲附近酒店，入住时间5月23日到5月25日，入住人高静，电话15190010943，邮箱高静@outlook.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_108"
-    description: "预订上海外滩附近酒店，入住时间4月18日到4月19日，预算800-1100元，入住人郭敏静，电话13882677345，邮箱user108_970@sohu.com"
+    description: "预订上海外滩附近酒店，入住时间4月18日到4月19日，预算800-1100元，入住人郭敏静，电话13882677345，邮箱郭敏静970@sohu.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_109"
-    description: "预订长沙橘子洲附近酒店，4月8日入住，住4晚，入住人孙秀英军，电话13585654310，邮箱user109@outlook.com"
+    description: "预订长沙橘子洲附近酒店，4月8日入住，住4晚，入住人孙秀英军，电话13585654310，邮箱孙秀英军@outlook.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_110"
-    description: "预订重庆洪崖洞附近酒店，入住时间3月22日到3月25日，入住人吴伟超，电话13411823398，邮箱user110_5808@gmail.com"
+    description: "预订重庆洪崖洞附近酒店，入住时间3月22日到3月25日，入住人吴伟超，电话13411823398，邮箱吴伟超5808@gmail.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_111"
-    description: "预订长沙橘子洲附近酒店，入住时间5月26日到5月30日，入住人黄芳敏，电话15907562636，邮箱user111@126.com"
+    description: "预订长沙橘子洲附近酒店，入住时间5月26日到5月30日，入住人黄芳敏，电话15907562636，邮箱黄芳敏@126.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_112"
-    description: "预订上海外滩附近酒店，入住时间5月12日到5月14日，预算200-500元，入住人吴秀英，电话15849361832，邮箱user112@sohu.com"
+    description: "预订上海外滩附近酒店，入住时间5月12日到5月14日，预算200-500元，入住人吴秀英，电话15849361832，邮箱吴秀英@sohu.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_113"
-    description: "预订大连星海广场附近酒店，入住时间4月6日到4月10日，入住人赵娟，电话18242054932，邮箱user113@sina.com"
+    description: "预订大连星海广场附近酒店，入住时间4月6日到4月10日，入住人赵娟，电话18242054932，邮箱赵娟@sina.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_114"
-    description: "预订杭州西湖附近酒店，入住时间4月25日到4月29日，入住人胡军明，电话15107527354，邮箱user114@126.com"
+    description: "预订杭州西湖附近酒店，入住时间4月25日到4月29日，入住人胡军明，电话15107527354，邮箱胡军明@126.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_115"
-    description: "预订厦门鼓浪屿附近酒店，入住时间5月11日到5月13日，入住人郭敏军，电话15077752047，邮箱user115_1071@outlook.com"
+    description: "预订厦门鼓浪屿附近酒店，入住时间5月11日到5月13日，入住人郭敏军，电话15077752047，邮箱郭敏军1071@outlook.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_116"
-    description: "预订厦门鼓浪屿附近酒店，4月8日入住，住3晚，预算300-500元，入住人刘霞敏，电话13441904966，邮箱user116@163.com"
+    description: "预订厦门鼓浪屿附近酒店，4月8日入住，住3晚，预算300-500元，入住人刘霞敏，电话13441904966，邮箱刘霞敏@163.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_117"
-    description: "预订青岛栈桥附近酒店，5月5日入住，住1晚，入住人杨洋涛，电话18792322602，邮箱user117@gmail.com"
+    description: "预订青岛栈桥附近酒店，5月5日入住，住1晚，入住人杨洋涛，电话18792322602，邮箱杨洋涛@gmail.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_118"
-    description: "预订北京故宫附近酒店，入住时间5月5日到5月6日，预算300-800元，入住人郭芳涛，电话15705153195，邮箱user118_5773@126.com"
+    description: "预订北京故宫附近酒店，入住时间5月5日到5月6日，预算300-800元，入住人郭芳涛，电话15705153195，邮箱郭芳涛5773@126.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_119"
-    description: "预订苏州园林附近酒店，5月29日入住，住3晚，预算200-700元，入住人周浩杰，电话15117123685，邮箱user119_6465@qq.com"
+    description: "预订苏州园林附近酒店，5月29日入住，住3晚，预算200-700元，入住人周浩杰，电话15117123685，邮箱周浩杰6465@qq.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_120"
-    description: "预订武汉黄鹤楼附近酒店，入住时间4月9日到4月13日，入住人郭超，电话13665667010，邮箱user120@gmail.com"
+    description: "预订武汉黄鹤楼附近酒店，入住时间4月9日到4月13日，入住人郭超，电话13665667010，邮箱郭超@gmail.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_121"
-    description: "预订苏州园林附近酒店，入住时间4月3日到4月6日，入住人陈洋，电话15732921277，邮箱user121@sohu.com"
+    description: "预订苏州园林附近酒店，入住时间4月3日到4月6日，入住人陈洋，电话15732921277，邮箱陈洋@sohu.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_122"
-    description: "预订长沙橘子洲附近酒店，入住时间5月23日到5月25日，预算400-600元，入住人胡秀英霞，电话13455466590，邮箱user122@sina.com"
+    description: "预订长沙橘子洲附近酒店，入住时间5月23日到5月25日，预算400-600元，入住人胡秀英霞，电话13455466590，邮箱胡秀英霞@sina.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_123"
-    description: "预订北京故宫附近酒店，入住时间5月16日到5月18日，入住人郭浩，电话18802606474，邮箱user123@sina.com"
+    description: "预订北京故宫附近酒店，入住时间5月16日到5月18日，入住人郭浩，电话18802606474，邮箱郭浩@sina.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_124"
-    description: "预订苏州园林附近酒店，6月18日入住，住4晚，入住人吴娟，电话18205349493，邮箱user124@126.com"
+    description: "预订苏州园林附近酒店，6月18日入住，住4晚，入住人吴娟，电话18205349493，邮箱吴娟@126.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_125"
-    description: "预订厦门鼓浪屿附近酒店，入住时间9月17日到9月21日，入住人何华艳，电话13741832856，邮箱user125@sohu.com"
+    description: "预订厦门鼓浪屿附近酒店，入住时间9月17日到9月21日，入住人何华艳，电话13741832856，邮箱何华艳@sohu.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_126"
-    description: "预订苏州园林附近酒店，入住时间5月3日到5月4日，入住人马丽，电话18815305152，邮箱user126_4701@sohu.com"
+    description: "预订苏州园林附近酒店，入住时间5月3日到5月4日，入住人马丽，电话18815305152，邮箱马丽4701@sohu.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_127"
-    description: "预订杭州西湖附近酒店，入住时间4月13日到4月14日，预算800-1200元，入住人杨娜，电话18778377701，邮箱user127_6626@sina.com"
+    description: "预订杭州西湖附近酒店，入住时间4月13日到4月14日，预算800-1200元，入住人杨娜，电话18778377701，邮箱杨娜6626@sina.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_128"
-    description: "预订重庆洪崖洞附近酒店，4月29日入住，住3晚，入住人胡霞丽，电话18787277434，邮箱user128@126.com"
+    description: "预订重庆洪崖洞附近酒店，4月29日入住，住3晚，入住人胡霞丽，电话18787277434，邮箱胡霞丽@126.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_129"
-    description: "预订大连星海广场附近酒店，入住时间3月22日到3月23日，入住人杨超霞，电话15177738721，邮箱user129_5492@qq.com"
+    description: "预订大连星海广场附近酒店，入住时间3月22日到3月23日，入住人杨超霞，电话15177738721，邮箱杨超霞5492@qq.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_130"
-    description: "预订深圳世界之窗附近酒店，入住时间5月25日到5月29日，预算800-1300元，入住人李华强，电话18787056856，邮箱user130@gmail.com"
+    description: "预订深圳世界之窗附近酒店，入住时间5月25日到5月29日，预算800-1300元，入住人李华强，电话18787056856，邮箱李华强@gmail.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_131"
-    description: "预订西安兵马俑附近酒店，入住时间3月23日到3月26日，入住人吴浩，电话18847102767，邮箱user131@gmail.com"
+    description: "预订西安兵马俑附近酒店，入住时间3月23日到3月26日，入住人吴浩，电话18847102767，邮箱吴浩@gmail.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_132"
-    description: "预订杭州西湖附近酒店，入住时间4月7日到4月8日，预算200-500元，入住人王涛艳，电话18333848421，邮箱user132@126.com"
+    description: "预订杭州西湖附近酒店，入住时间4月7日到4月8日，预算200-500元，入住人王涛艳，电话18333848421，邮箱王涛艳@126.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_133"
-    description: "预订厦门鼓浪屿附近酒店，11月1日入住，住3晚，预算200-600元，入住人张杰，电话15964037613，邮箱user133@126.com"
+    description: "预订厦门鼓浪屿附近酒店，11月1日入住，住3晚，预算200-600元，入住人张杰，电话15964037613，邮箱张杰@126.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_134"
-    description: "预订北京故宫附近酒店，入住时间5月22日到5月23日，预算400-700元，入住人黄明，电话15899091699，邮箱user134@gmail.com"
+    description: "预订北京故宫附近酒店，入住时间5月22日到5月23日，预算400-700元，入住人黄明，电话15899091699，邮箱黄明@gmail.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_135"
-    description: "预订深圳世界之窗附近酒店，入住时间5月30日到6月1日，入住人张敏洋，电话13487083172，邮箱user135@sina.com"
+    description: "预订深圳世界之窗附近酒店，入住时间5月30日到6月1日，入住人张敏洋，电话13487083172，邮箱张敏洋@sina.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_136"
-    description: "预订大连星海广场附近酒店，入住时间3月23日到3月26日，入住人赵洋，电话18881645352，邮箱user136_1869@126.com"
+    description: "预订大连星海广场附近酒店，入住时间3月23日到3月26日，入住人赵洋，电话18881645352，邮箱赵洋1869@126.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_137"
-    description: "预订深圳世界之窗附近酒店，3月26日入住，住2晚，预算200-600元，入住人周军丽，电话15013435240，邮箱user137@163.com"
+    description: "预订深圳世界之窗附近酒店，3月26日入住，住2晚，预算200-600元，入住人周军丽，电话15013435240，邮箱周军丽@163.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_138"
-    description: "预订广州塔附近酒店，入住时间5月1日到5月5日，入住人朱华，电话13728059826，邮箱user138_5051@gmail.com"
+    description: "预订广州塔附近酒店，入住时间5月1日到5月5日，入住人朱华，电话13728059826，邮箱朱华5051@gmail.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_139"
-    description: "预订成都春熙路附近酒店，入住时间3月30日到4月3日，预算500-1000元，入住人黄洋，电话13701666870，邮箱user139@sina.com"
+    description: "预订成都春熙路附近酒店，入住时间3月30日到4月3日，预算500-1000元，入住人黄洋，电话13701666870，邮箱黄洋@sina.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_140"
-    description: "预订厦门鼓浪屿附近酒店，5月27日入住，住1晚，预算800-1300元，入住人刘超强，电话13967240049，邮箱user140@gmail.com"
+    description: "预订厦门鼓浪屿附近酒店，5月27日入住，住1晚，预算800-1300元，入住人刘超强，电话13967240049，邮箱刘超强@gmail.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_141"
-    description: "预订重庆洪崖洞附近酒店，5月25日入住，住3晚，预算200-700元，入住人赵伟，电话15239502402，邮箱user141@126.com"
+    description: "预订重庆洪崖洞附近酒店，5月25日入住，住3晚，预算200-700元，入住人赵伟，电话15239502402，邮箱赵伟@126.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_142"
-    description: "预订上海外滩附近酒店，5月28日入住，住3晚，预算200-600元，入住人何霞娜，电话13635290965，邮箱user142@outlook.com"
+    description: "预订上海外滩附近酒店，5月28日入住，住3晚，预算200-600元，入住人何霞娜，电话13635290965，邮箱何霞娜@outlook.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_143"
-    description: "预订杭州西湖附近酒店，入住时间4月30日到5月2日，入住人孙军，电话18747436713，邮箱user143@gmail.com"
+    description: "预订杭州西湖附近酒店，入住时间4月30日到5月2日，入住人孙军，电话18747436713，邮箱孙军@gmail.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_144"
-    description: "预订南京夫子庙附近酒店，入住时间4月12日到4月13日，入住人朱明军，电话13896705466，邮箱user144@sina.com"
+    description: "预订南京夫子庙附近酒店，入住时间4月12日到4月13日，入住人朱明军，电话13896705466，邮箱朱明军@sina.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_145"
-    description: "预订上海外滩附近酒店，5月26日入住，住3晚，预算500-800元，入住人罗静静，电话13429270653，邮箱user145@126.com"
+    description: "预订上海外滩附近酒店，5月26日入住，住3晚，预算500-800元，入住人罗静静，电话13429270653，邮箱罗静静@126.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_146"
-    description: "预订大连星海广场附近酒店，4月29日入住，住3晚，预算400-900元，入住人孙明，电话15288153714，邮箱user146@163.com"
+    description: "预订大连星海广场附近酒店，4月29日入住，住3晚，预算400-900元，入住人孙明，电话15288153714，邮箱孙明@163.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_147"
-    description: "预订深圳世界之窗附近酒店，5月10日入住，住3晚，预算400-600元，入住人王霞华，电话15827648350，邮箱user147_526@sohu.com"
+    description: "预订深圳世界之窗附近酒店，5月10日入住，住3晚，预算400-600元，入住人王霞华，电话15827648350，邮箱王霞华526@sohu.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_148"
-    description: "预订长沙橘子洲附近酒店，5月20日入住，住2晚，入住人王秀英，电话15903054868，邮箱user148@qq.com"
+    description: "预订长沙橘子洲附近酒店，5月20日入住，住2晚，入住人王秀英，电话15903054868，邮箱王秀英@qq.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_149"
-    description: "预订北京故宫附近酒店，5月14日入住，住1晚，入住人陈强超，电话13766978480，邮箱user149@qq.com"
+    description: "预订北京故宫附近酒店，5月14日入住，住1晚，入住人陈强超，电话13766978480，邮箱陈强超@qq.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_150"
-    description: "预订武汉黄鹤楼附近酒店，入住时间5月4日到5月8日，预算800-1000元，入住人李娜明，电话15282029702，邮箱user150_6002@gmail.com"
+    description: "预订武汉黄鹤楼附近酒店，入住时间5月4日到5月8日，预算800-1000元，入住人李娜明，电话15282029702，邮箱李娜明6002@gmail.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_151"
-    description: "预订重庆洪崖洞附近酒店，入住时间4月20日到4月22日，入住人徐华，电话18236226609，邮箱user151@outlook.com"
+    description: "预订重庆洪崖洞附近酒店，入住时间4月20日到4月22日，入住人徐华，电话18236226609，邮箱徐华@outlook.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_152"
-    description: "预订上海外滩附近酒店，入住时间5月31日到6月3日，入住人陈军，电话15993352904，邮箱user152@163.com"
+    description: "预订上海外滩附近酒店，入住时间5月31日到6月3日，入住人陈军，电话15993352904，邮箱陈军@163.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_153"
-    description: "预订武汉黄鹤楼附近酒店，入住时间4月5日到4月7日，入住人张娜芳，电话15810518347，邮箱user153_2168@sina.com"
+    description: "预订武汉黄鹤楼附近酒店，入住时间4月5日到4月7日，入住人张娜芳，电话15810518347，邮箱张娜芳2168@sina.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_154"
-    description: "预订重庆洪崖洞附近酒店，入住时间4月24日到4月27日，入住人吴杰浩，电话15175844198，邮箱user154@outlook.com"
+    description: "预订重庆洪崖洞附近酒店，入住时间4月24日到4月27日，入住人吴杰浩，电话15175844198，邮箱吴杰浩@outlook.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_155"
-    description: "预订深圳世界之窗附近酒店，入住时间4月7日到4月10日，预算300-800元，入住人郭明秀英，电话13542388496，邮箱user155@outlook.com"
+    description: "预订深圳世界之窗附近酒店，入住时间4月7日到4月10日，预算300-800元，入住人郭明秀英，电话13542388496，邮箱郭明秀英@outlook.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_156"
-    description: "预订武汉黄鹤楼附近酒店，入住时间5月19日到5月20日，预算800-1300元，入住人高杰，电话15818699938，邮箱user106@outlook.com"
+    description: "预订武汉黄鹤楼附近酒店，入住时间5月19日到5月20日，预算800-1300元，入住人高杰，电话15818699938，邮箱高杰@outlook.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_157"
-    description: "预订西安兵马俑附近酒店，3月21日入住，住1晚，入住人徐霞，电话13549985698，邮箱user157_8283@126.com"
+    description: "预订西安兵马俑附近酒店，3月21日入住，住1晚，入住人徐霞，电话13549985698，邮箱徐霞8283@126.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_158"
-    description: "预订上海外滩附近酒店，入住时间5月8日到5月10日，入住人王军，电话13455371478，邮箱user158@gmail.com"
+    description: "预订上海外滩附近酒店，入住时间5月8日到5月10日，入住人王军，电话13455371478，邮箱王军@gmail.com"
     max_steps: 50
     enabled: true
 
   - name: "携程订酒店_task_159"
-    description: "预订南京夫子庙附近酒店，4月23日入住，住1晚，入住人赵秀英，电话15000504556，邮箱user159_8703@outlook.com"
-    max_steps: 50
-    enabled: true
-
-  - name: "携程订酒店_task_160"
-    description: "预订杭州西湖附近酒店，入住时间4月15日到4月18日，入住人何浩，电话15762638380，邮箱user160@sohu.com"
-    max_steps: 50
-    enabled: true
-
-  - name: "携程订酒店_task_161"
-    description: "预订重庆洪崖洞附近酒店，入住时间4月19日到4月23日，入住人高丽，电话15720593040，邮箱user161@outlook.com"
-    max_steps: 50
-    enabled: true
-
-  - name: "携程订酒店_task_162"
-    description: "预订深圳世界之窗附近酒店，入住时间4月26日到4月28日，预算800-1000元，入住人黄艳芳，电话15896522395，邮箱user162@sina.com"
-    max_steps: 50
-    enabled: true
-
-  - name: "携程订酒店_task_163"
-    description: "预订武汉黄鹤楼附近酒店，入住时间4月11日到4月13日，入住人杨浩强，电话18301039308，邮箱user163@gmail.com"
-    max_steps: 50
-    enabled: true
-
-  - name: "携程订酒店_task_164"
-    description: "预订青岛栈桥附近酒店，入住时间4月1日到4月3日，预算300-600元，入住人刘娟，电话13592185156，邮箱user164@gmail.com"
-    max_steps: 50
-    enabled: true
-
-  - name: "携程订酒店_task_165"
-    description: "预订青岛栈桥附近酒店，入住时间4月16日到4月20日，入住人刘华霞，电话15239264422，邮箱user165@sina.com"
-    max_steps: 50
-    enabled: true
-
-  - name: "携程订酒店_task_166"
-    description: "预订大连星海广场附近酒店，入住时间4月14日到4月15日，入住人徐霞，电话13672513552，邮箱user166@qq.com"
-    max_steps: 50
-    enabled: true
-
-  - name: "携程订酒店_task_167"
-    description: "预订厦门鼓浪屿附近酒店，入住时间4月29日到4月30日，入住人周磊，电话13754100676，邮箱user167@outlook.com"
-    max_steps: 50
-    enabled: true
-
-  - name: "携程订酒店_task_168"
-    description: "预订成都春熙路附近酒店，入住时间4月13日到4月17日，预算200-400元，入住人郭军洋，电话13471040541，邮箱user168_2788@outlook.com"
-    max_steps: 50
-    enabled: true
-
-  - name: "携程订酒店_task_169"
-    description: "预订武汉黄鹤楼附近酒店，4月10日入住，住4晚，预算200-700元，入住人朱强超，电话13401533688，邮箱user169_4613@gmail.com"
-    max_steps: 50
-    enabled: true
-
-  - name: "携程订酒店_task_170"
-    description: "预订重庆洪崖洞附近酒店，入住时间4月25日到4月29日，入住人孙伟，电话15097310324，邮箱user170@outlook.com"
-    max_steps: 50
-    enabled: true
-
-  - name: "携程订酒店_task_171"
-    description: "预订青岛栈桥附近酒店，入住时间4月8日到4月12日，入住人周娜明，电话13456527047，邮箱user171@163.com"
-    max_steps: 50
-    enabled: true
-
-  - name: "携程订酒店_task_172"
-    description: "预订上海外滩附近酒店，4月25日入住，住2晚，入住人赵娜华，电话18793806868，邮箱user172@outlook.com"
-    max_steps: 50
-    enabled: true
-
-  - name: "携程订酒店_task_173"
-    description: "预订西安兵马俑附近酒店，入住时间4月4日到4月7日，入住人李丽丽，电话13517223320，邮箱user173@sina.com"
-    max_steps: 50
-    enabled: true
-
-  - name: "携程订酒店_task_174"
-    description: "预订广州塔附近酒店，入住时间4月28日到4月29日，预算300-600元，入住人王娜，电话18885487099，邮箱user174@outlook.com"
-    max_steps: 50
-    enabled: true
-
-  - name: "携程订酒店_task_175"
-    description: "预订武汉黄鹤楼附近酒店，4月25日入住，住1晚，入住人高敏华，电话15264679970，邮箱user175_6603@163.com"
-    max_steps: 50
-    enabled: true
-
-  - name: "携程订酒店_task_176"
-    description: "预订上海外滩附近酒店，4月14日入住，住4晚，预算300-600元，入住人徐洋，电话18345054447，邮箱user176@sina.com"
-    max_steps: 50
-    enabled: true
-
-  - name: "携程订酒店_task_177"
-    description: "预订厦门鼓浪屿附近酒店，4月8日入住，住4晚，预算800-1300元，入住人徐艳霞，电话13737367850，邮箱user177@163.com"
-    max_steps: 50
-    enabled: true
-
-  - name: "携程订酒店_task_178"
-    description: "预订青岛栈桥附近酒店，入住时间3月28日到3月29日，入住人杨芳，电话18205345786，邮箱user178@qq.com"
-    max_steps: 50
-    enabled: true
-
-  - name: "携程订酒店_task_179"
-    description: "预订成都春熙路附近酒店，入住时间4月4日到4月8日，入住人刘浩涛，电话15224140602，邮箱user179@sohu.com"
-    max_steps: 50
-    enabled: true
-
-  - name: "携程订酒店_task_180"
-    description: "预订长沙橘子洲附近酒店，入住时间4月3日到4月5日，入住人周超伟，电话18322903494，邮箱user180@sina.com"
-    max_steps: 50
-    enabled: true
-
-  - name: "携程订酒店_task_181"
-    description: "预订苏州园林附近酒店，4月16日入住，住4晚，入住人胡艳，电话15089691085，邮箱user181@126.com"
-    max_steps: 50
-    enabled: true
-
-  - name: "携程订酒店_task_182"
-    description: "预订长沙橘子洲附近酒店，入住时间4月8日到4月9日，预算200-700元，入住人徐艳艳，电话15743283096，邮箱user182@sina.com"
-    max_steps: 50
-    enabled: true
-
-  - name: "携程订酒店_task_183"
-    description: "预订杭州西湖附近酒店，入住时间4月7日到4月11日，预算200-700元，入住人李军军，电话15953875842，邮箱user183@126.com"
-    max_steps: 50
-    enabled: true
-
-  - name: "携程订酒店_task_184"
-    description: "预订厦门鼓浪屿附近酒店，3月28日入住，住3晚，入住人何强娟，电话13735346554，邮箱user184@outlook.com"
-    max_steps: 50
-    enabled: true
-
-  - name: "携程订酒店_task_185"
-    description: "预订上海外滩附近酒店，入住时间4月19日到4月20日，入住人杨丽，电话18884602235，邮箱user185@126.com"
-    max_steps: 50
-    enabled: true
-
-  - name: "携程订酒店_task_186"
-    description: "预订广州塔附近酒店，4月18日入住，住3晚，入住人刘娜，电话13450074329，邮箱user186@outlook.com"
-    max_steps: 50
-    enabled: true
-
-  - name: "携程订酒店_task_187"
-    description: "预订广州塔附近酒店，入住时间3月25日到3月29日，入住人马超明，电话13808350583，邮箱user187_68@sina.com"
-    max_steps: 50
-    enabled: true
-
-  - name: "携程订酒店_task_188"
-    description: "预订厦门鼓浪屿附近酒店，入住时间4月3日到4月6日，入住人赵明杰，电话13410447898，邮箱user188@sina.com"
-    max_steps: 50
-    enabled: true
-
-  - name: "携程订酒店_task_189"
-    description: "预订苏州园林附近酒店，入住时间4月10日到4月14日，入住人杨强明，电话13833230982，邮箱user189_613@outlook.com"
-    max_steps: 50
-    enabled: true
-
-  - name: "携程订酒店_task_190"
-    description: "预订青岛栈桥附近酒店，入住时间4月5日到4月6日，入住人李敏伟，电话13916761847，邮箱user190@163.com"
-    max_steps: 50
-    enabled: true
-
-  - name: "携程订酒店_task_191"
-    description: "预订上海外滩附近酒店，入住时间4月28日到4月29日，预算400-700元，入住人赵丽，电话13561891411，邮箱user191@126.com"
-    max_steps: 50
-    enabled: true
-
-  - name: "携程订酒店_task_192"
-    description: "预订厦门鼓浪屿附近酒店，入住时间4月11日到4月15日，入住人李华，电话15975300119，邮箱user192@163.com"
-    max_steps: 50
-    enabled: true
-
-  - name: "携程订酒店_task_193"
-    description: "预订北京故宫附近酒店，4月21日入住，住1晚，预算200-400元，入住人黄秀英杰，电话15770120455，邮箱user193@qq.com"
-    max_steps: 50
-    enabled: true
-
-  - name: "携程订酒店_task_194"
-    description: "预订长沙橘子洲附近酒店，入住时间3月28日到3月30日，入住人胡霞，电话13755216674，邮箱user194@sina.com"
-    max_steps: 50
-    enabled: true
-
-  - name: "携程订酒店_task_195"
-    description: "预订长沙橘子洲附近酒店，入住时间4月15日到4月17日，入住人李强，电话18397296590，邮箱user195@sohu.com"
-    max_steps: 50
-    enabled: true
-
-  - name: "携程订酒店_task_196"
-    description: "预订西安兵马俑附近酒店，入住时间3月28日到4月1日，入住人朱秀英，电话15750899358，邮箱user196@sina.com"
-    max_steps: 50
-    enabled: true
-
-  - name: "携程订酒店_task_197"
-    description: "预订长沙橘子洲附近酒店，入住时间4月16日到4月18日，入住人马静华，电话13902877217，邮箱user197@gmail.com"
-    max_steps: 50
-    enabled: true
-
-  - name: "携程订酒店_task_198"
-    description: "预订重庆洪崖洞附近酒店，入住时间3月23日到3月25日，入住人马明娜，电话18279717751，邮箱user198@sina.com"
-    max_steps: 50
-    enabled: true
-
-  - name: "携程订酒店_task_199"
-    description: "预订南京夫子庙附近酒店，入住时间3月26日到3月30日，入住人何伟霞，电话15088375503，邮箱user199@gmail.com"
+    description: "预订南京夫子庙附近酒店，4月23日入住，住1晚，入住人赵秀英，电话15000504556，邮箱赵秀英8703@outlook.com"
     max_steps: 50
     enabled: true
 

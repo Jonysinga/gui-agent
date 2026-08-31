@@ -11,16 +11,9 @@ import pyautogui
 import pyperclip
 from PIL import Image
 
-try:
-    from dotenv import load_dotenv
-    load_dotenv()
-except ImportError:
-    pass
-
 # ================= 配置区域 =================
-# API Key 从环境变量读取（见 .env.example）。请勿将真实密钥硬编码进源码。
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
-GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3-pro-preview")
+GEMINI_MODEL = "gemini-3-pro-preview"
 client_analyst = OpenAI(
     base_url="https://generativelanguage.googleapis.com/v1beta/openai/",
     api_key=GEMINI_API_KEY
@@ -35,57 +28,12 @@ client_analyst = OpenAI(
 #     api_key=DOUBAO_API_KEY
 # )
 
-# ===== 执行器模型配置 =====
-# 可选后端: "UI-TARS-1.5-7B" / "doubao" / "GUI-Owl-32B-Think" / "GUI-Owl-32B-Instruct"
-#           / "GUI-Owl-8B-Think" / "GUI-Owl-8B-Instruct" / "GUI-Owl-4B-Instruct" / "GUI-Owl-2B-Instruct"
-EXECUTOR_BACKEND = "UI-TARS-1.5-7B"
-
-_EXECUTOR_CONFIGS = {
-    "UI-TARS-1.5-7B": {
-        "model": "/mnt/disk3/models/UI-TARS-1.5-7B",
-        "base_url": "http://115.190.215.236:8004/v1",
-        "api_key": "EMPTY",
-    },
-    "doubao": {
-        "model": "doubao-1-5-ui-tars-250428",
-        "base_url": "https://ark.cn-beijing.volces.com/api/v3",
-        "api_key": os.getenv("DOUBAO_API_KEY", ""),
-    },
-    "GUI-Owl-32B-Think": {
-        "model": "/mnt/disk1/models/GUI-Owl-1.5-32B-Think",
-        "base_url": "http://115.190.234.37:8000/v1",
-        "api_key": "EMPTY",
-    },
-    "GUI-Owl-32B-Instruct": {
-        "model": "/mnt/disk1/models/GUI-Owl-1.5-32B-Instruct",
-        "base_url": "http://115.190.234.37:8007/v1",
-        "api_key": "EMPTY",
-    },
-    "GUI-Owl-8B-Think": {
-        "model": "/mnt/disk1/models/GUI-Owl-1.5-8B-Think",
-        "base_url": "http://115.190.234.37:8001/v1",
-        "api_key": "EMPTY",
-    },
-    "GUI-Owl-8B-Instruct": {
-        "model": "/mnt/disk1/models/GUI-Owl-1.5-8B-Instruct",
-        "base_url": "http://115.190.234.37:8003/v1",
-        "api_key": "EMPTY",
-    },
-    "GUI-Owl-4B-Instruct": {
-        "model": "/mnt/disk1/models/GUI-Owl-1.5-4B-Instruct",
-        "base_url": "http://115.190.234.37:8006/v1",
-        "api_key": "EMPTY",
-    },
-    "GUI-Owl-2B-Instruct": {
-        "model": "/mnt/disk1/models/GUI-Owl-1.5-2B-Instruct",
-        "base_url": "http://115.190.234.37:8005/v1",
-        "api_key": "EMPTY",
-    },
-}
-
-_cfg = _EXECUTOR_CONFIGS[EXECUTOR_BACKEND]
-EXECUTOR_MODEL = _cfg["model"]
-client_executor = OpenAI(base_url=_cfg["base_url"], api_key=_cfg["api_key"])
+# ===== 本地模型配置 =====
+EXECUTOR_MODEL = "/mnt/disk3/models/UI-TARS-1.5-7B"
+client_executor = OpenAI(
+    base_url="http://115.190.215.236:8004/v1",
+    api_key="EMPTY"
+)
 
 SCREEN_WIDTH, SCREEN_HEIGHT = pyautogui.size()
 _ss = pyautogui.screenshot()
@@ -115,8 +63,11 @@ def take_screenshot():
     return pyautogui.screenshot()
 
 
-def normalize_point_ui_tars(point):
-    """UI-TARS-1.5 坐标转换: 支持归一化坐标和物理像素坐标"""
+def normalize_point(point):
+    """将模型输出的坐标统一转换为 pyautogui 逻辑坐标。
+    - 归一化坐标 (0~1000): 两个分量均 <= 1000，按比例换算
+    - 物理像素坐标 (>1000): 模型基于截图原始分辨率输出，需除以 DPI 缩放比
+    """
     px, py = point[0], point[1]
     if px <= 1000 and py <= 1000:
         x = int(px / 1000 * SCREEN_WIDTH)
@@ -126,32 +77,8 @@ def normalize_point_ui_tars(point):
         x = int(max(0, min(px / SCALE_X, SCREEN_WIDTH - 1)))
         y = int(max(0, min(py / SCALE_Y, SCREEN_HEIGHT - 1)))
         coord_mode = f"pixel(scale={SCALE_X:.1f}x)"
-    print(f"   [坐标/{EXECUTOR_BACKEND}] 原始{point} ({coord_mode}) → 逻辑({x}, {y})")
+    print(f"   [坐标] 原始{point} ({coord_mode}) → 逻辑({x}, {y})")
     return x, y
-
-
-def normalize_point_gui_owl(point):
-    """GUI-Owl 系列坐标转换: 输出 0-1000 归一化坐标（与豆包相同）"""
-    px, py = point[0], point[1]
-    x = int(px / 1000 * SCREEN_WIDTH)
-    y = int(py / 1000 * SCREEN_HEIGHT)
-    print(f"   [坐标/{EXECUTOR_BACKEND}] 原始{point} (norm 0-1000) → 逻辑({x}, {y})")
-    return x, y
-
-
-def normalize_point(point):
-    """将模型输出的坐标统一转换为 pyautogui 逻辑坐标。
-    - UI-TARS-1.5: 归一化坐标 (0~1000) 或物理像素坐标 (>1000)
-    - GUI-Owl 系列: 归一化坐标 (0~1000)
-    - doubao: 归一化坐标 (0~1000)
-    """
-    # GUI-Owl 系列模型使用 0-1000 归一化坐标
-    if EXECUTOR_BACKEND in ["GUI-Owl-32B-Think", "GUI-Owl-32B-Instruct",
-                            "GUI-Owl-8B-Think", "GUI-Owl-8B-Instruct",
-                            "GUI-Owl-4B-Instruct", "GUI-Owl-2B-Instruct"]:
-        return normalize_point_gui_owl(point)
-    else:
-        return normalize_point_ui_tars(point)
 
 
 def execute_action(data):

@@ -1,0 +1,25 @@
+# ================= 预置分步指令任务配置 =================
+# 每个 task 的 steps 是有序的人工预写指令列表，直接发给 Executor (小脑)。
+# Executor 会结合当前截图执行每条指令，执行完后自动取下一条。
+#
+# step 字段说明：
+#   instruction: 给 Executor 的自然语言指令（等同于原来 Analyst 的 [👉 指令]）
+#   max_retries:  该步骤允许的最大重试次数（默认 1，不重试）
+#   wait_after:   执行后额外等待秒数（默认 0）
+
+tasks:
+  - name: "携程订酒店_scripted_000"
+    description: "预订厦门鼓浪屿附近酒店，入住5月4日到5月7日，入住人马艳，电话13997439533，邮箱马艳@sina.com"
+    max_steps: 50
+    enabled: true
+    steps:
+      - instruction: "点击搜索框，清空内容后输入「鼓浪屿」并回车搜索"
+      - instruction: "点击页面顶部的入住日期输入框，打开日历"
+      - instruction: "在日历中先点击「5月4日」（入住日），再点击「5月7日」（离店日），然后点击「确定」或关闭日历"
+      - instruction: "点击「搜索」或「查询」按钮"
+      - instruction: "在搜索结果列表中，点击第一个酒店进入详情页"
+      - instruction: "在详情页点击「立即预订」或「预订」按钮"
+      - instruction: "在入住人信息页，填写姓名「马艳」，电话「13997439533」，邮箱「马艳@sina.com」"
+      - instruction: "点击「提交订单」或「确认预订」按钮"
+
+default_task: 0

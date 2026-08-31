@@ -1,13 +1,13 @@
+import os
 """
 test_gemini_thinking.py - 测试 Gemini 模型 thinking/CoT 内容获取
 用法：uv run python test_gemini_thinking.py
 """
-import os
 import json
 from openai import OpenAI
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
-GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3-pro-preview")
+GEMINI_MODEL = "gemini-3-pro-preview"
 
 client = OpenAI(
     base_url="https://generativelanguage.googleapis.com/v1beta/openai/",
